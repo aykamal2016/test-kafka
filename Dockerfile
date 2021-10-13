@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 
 COPY . .
-ENTRYPOINT ["python", "location_event_client.py"]
+ENTRYPOINT ["python", "kafka_client.py"]
